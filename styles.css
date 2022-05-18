@@ -23,9 +23,12 @@ section {
   background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
+  background-position-x: -2.5px;
+  background-position-y: 29px;
 }
 
+/* Tail */
 .tail-color {
   width: 20rem;
   height: 20rem;
@@ -168,4 +171,560 @@ section {
   top: 382px;
   left: 177.5px;
   transform: rotate(-65deg);
+}
+
+/* Body */
+.c1 {
+  position: absolute;
+  bottom: 35px;
+  left: 170px;
+  border-radius: 50%;
+  width: 7rem;
+  height: 5rem;
+  overflow: hidden;
+  background-color: #e6ab2e;
+}
+
+.c2 {
+  position: absolute;
+  bottom: 39px;
+  left: 304px;
+  transform: rotate(20deg);
+  width: 4rem;
+  height: 5rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 35px;
+  left: 280px;
+  width: 5rem;
+  height: 2rem;
+  transform: rotate(4deg);
+  background-color: #e6ab2e;
+  border-radius: 50%;
+}
+
+.c4 {
+  position: absolute;
+  bottom: 38px;
+  left: 260px;
+  width: 5rem;
+  height: 2rem;
+  transform: rotate(10deg);
+  background-color: #e6ab2e;
+  border-radius: 50%;
+}
+
+.c5 {
+  position: absolute;
+  bottom: 38px;
+  left: 202px;
+  width: 5rem;
+  height: 2rem;
+  transform: rotate(-5deg);
+  background-color: #e6ab2e;
+  border-radius: 50%;
+}
+
+.c6 {
+  position: absolute;
+  bottom: 41.5px;
+  left: 222px;
+  width: 6rem;
+  height: 3rem;
+  transform: rotate(3deg);
+  background-color: #e6ab2e;
+}
+
+.c7 {
+  position: absolute;
+  bottom: 55px;
+  left: 176px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 4rem;
+  overflow: hidden;
+  transform: rotate(28deg);
+  background-color: var(--main-color);
+}
+
+.c8 {
+  position: absolute;
+  bottom: 63px;
+  left: 225px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 4rem;
+  overflow: hidden;
+  transform: rotate(-31deg);
+  background-color: var(--main-color);
+}
+
+.c9 {
+  position: absolute;
+  bottom: 83px;
+  left: 200px;
+  width: 4rem;
+  height: 2.5rem;
+  overflow: hidden;
+  background-color: var(--main-color);
+}
+
+.c10 {
+  position: absolute;
+  bottom: 64.2px;
+  left: 252px;
+  width: 5.5rem;
+  height: 2rem;
+  overflow: hidden;
+  transform: rotate(3deg);
+  background-color: var(--main-color);
+}
+
+.c11 {
+  position: absolute;
+  bottom: 63px;
+  left: 225px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 4rem;
+  overflow: hidden;
+  transform: rotate(-31deg);
+  background-color: var(--main-color);
+}
+
+.c12 {
+  position: absolute;
+  bottom: 62px;
+  left: 171.5px;
+  border-radius: 50%;
+  width: 1rem;
+  height: 4rem;
+  overflow: hidden;
+  transform: rotate(8.5deg);
+  background-color: var(--main-color);
+}
+
+.c13 {
+  position: absolute;
+  bottom: 97px;
+  left: 286px;
+  border-radius: 50%;
+  width: 4rem;
+  height: 8rem;
+  overflow: hidden;
+  transform: rotate(-6deg);
+  background-color: var(--main-color);
+}
+
+.c14 {
+  position: absolute;
+  bottom: 97px;
+  left: 188.5px;
+  width: 4rem;
+  height: 8rem;
+  overflow: hidden;
+  transform: rotate(14deg);
+  background-color: var(--main-color);
+}
+
+.c15 {
+  position: absolute;
+  bottom: 95px;
+  left: 229px;
+  width: 6rem;
+  height: 8rem;
+  overflow: hidden;
+  background-color: var(--main-color);
+}
+
+.c16 {
+  position: absolute;
+  bottom: 272px;
+  left: 210px;
+  border-radius: 50%;
+  width: 9.9rem;
+  height: 6rem;
+  overflow: hidden;
+  transform: rotate(7deg);
+  background-color: var(--main-color);
+}
+
+.c17 {
+  position: absolute;
+  bottom: 251px;
+  left: 202px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 6rem;
+  overflow: hidden;
+  transform: rotate(5deg);
+  background-color: var(--main-color);
+}
+
+.c18 {
+  position: absolute;
+  bottom: 240px;
+  left: 339px;
+  border-radius: 50%;
+  width: 2rem;
+  height: 6rem;
+  overflow: hidden;
+  transform: rotate(3deg);
+  background-color: var(--main-color);
+}
+
+.c19 {
+  position: absolute;
+  bottom: 175px;
+  left: 287px;
+  border-radius: 50%;
+  width: 4rem;
+  height: 7rem;
+  overflow: hidden;
+  transform: rotate(69deg);
+  background-color: var(--main-color);
+}
+
+.c20 {
+  position: absolute;
+  bottom: 210px;
+  left: 193px;
+  border-radius: 50%;
+  width: 4rem;
+  height: 7rem;
+  overflow: hidden;
+  transform: rotate(15deg);
+  background-color: var(--main-color);
+}
+
+.c21 {
+  position: absolute;
+  bottom: 227px;
+  left: 228px;
+  width: 8.6rem;
+  height: 5rem;
+  overflow: hidden;
+  transform: rotate(-7deg);
+  background-color: var(--main-color);
+}
+
+.c22 {
+  position: absolute;
+  bottom: 125px;
+  left: 169px;
+  width: 3rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-36deg);
+  background-color: var(--main-color);
+}
+
+.c23 {
+  position: absolute;
+  bottom: 123px;
+  left: 179px;
+  width: 3rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-33deg);
+  background-color: var(--main-color);
+}
+
+.c24 {
+  position: absolute;
+  bottom: 292px;
+  left: 169px;
+  width: 2.5rem;
+  height: 11rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-49deg);
+  background-color: var(--main-color);
+}
+
+.c25 {
+  position: absolute;
+  bottom: 322px;
+  left: 159px;
+  width: 2.5rem;
+  height: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-50deg);
+  background-color: var(--main-color);
+}
+
+.c26 {
+  position: absolute;
+  bottom: 270px;
+  left: 369px;
+  width: 2.5rem;
+  height: 11rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(55deg);
+  background-color: var(--main-color);
+}
+
+.c27 {
+  position: absolute;
+  bottom: 286px;
+  left: 375px;
+  width: 2.5rem;
+  height: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(60deg);
+  background-color: var(--main-color);
+}
+
+/* Tail Outline */
+.b1 {
+  position: absolute;
+  left: 223px;
+  top: 105px;
+  width: 8.4rem;
+  height: 5rem;
+  border-radius: 50%;
+  transform: rotate(8deg);
+  overflow: hidden;
+  /* background-color: lightblue; */
+}
+.b1 > div {
+  position: relative;
+  top: 5.5px;
+  left: -50px;
+  width: 15rem;
+  height: 14rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b2 {
+  position: absolute;
+  left: 90px;
+  top: 45px;
+  width: 9.2rem;
+  height: 5rem;
+  transform: rotate(49deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.4); */
+}
+.b2 > div {
+  position: relative;
+  top: 5px;
+  left: -20px;
+  width: 19rem;
+  height: 10rem;
+  transform: rotate(3deg);
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b3 {
+  position: absolute;
+  left: 341px;
+  top: 59px;
+  width: 9rem;
+  height: 5rem;
+  transform: rotate(144deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.4); */
+}
+.b33 {
+  position: absolute;
+  top: 17px;
+  left: -30px;
+  width: 20rem;
+  height: 10rem;
+  transform: rotate(15deg);
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.b333 {
+  position: absolute;
+  top: -104px;
+  left: -30px;
+  width: 20rem;
+  height: 10rem;
+  transform: rotate(-5deg);
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b4 {
+  position: absolute;
+  left: 88px;
+  top: 46px;
+  width: 9.4rem;
+  height: 5rem;
+  transform: rotate(45deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.4); */
+}
+.b44 {
+  position: absolute;
+  top: 7px;
+  left: -37px;
+  width: 20rem;
+  height: 10rem;
+  transform: rotate(3deg);
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.b444 {
+  position: absolute;
+  top: -110px;
+  left: -30px;
+  width: 20rem;
+  height: 10rem;
+  transform: rotate(-12deg);
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b5 {
+  position: absolute;
+  left: 328px;
+  top: 166px;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b5 > div {
+  position: relative;
+  top: 1px;
+  left: -20px;
+  width: 7rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b6 {
+  position: absolute;
+  left: 361px;
+  top: 185px;
+  width: 2.9rem;
+  height: 3rem;
+  transform: rotate(-101deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b6 > div {
+  position: relative;
+  top: 10.8px;
+  left: -71px;
+  width: 12rem;
+  transform: rotate(16.5deg);
+  height: 6rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b7 {
+  position: absolute;
+  left: 203px;
+  top: 137px;
+  width: 3rem;
+  height: 3rem;
+  transform: rotate(-70deg);
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b7 > div {
+  position: relative;
+  top: 3px;
+  left: -55px;
+  width: 8rem;
+  transform: rotate(-12.5deg);
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.c28 {
+  position: absolute;
+  left: 361px;
+  top: 150px;
+  background-color: var(--main-color);
+  transform: rotate(-10deg);
+  width: 10px;
+  height: 36px;
+}
+
+.b8 {
+  position: absolute;
+  left: 337.2px;
+  top: 153px;
+  width: 2.8rem;
+  height: 2rem;
+  z-index: 2;
+  transform: rotate(-109deg);
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b8 > div {
+  position: relative;
+  top: -52px;
+  left: -19px;
+  width: 8rem;
+  height: 5rem;
+  transform: rotate(-15.5deg);
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b9 {
+  position: absolute;
+  left: 288px;
+  top: 246px;
+  width: 6rem;
+  height: 2.5rem;
+  transform: rotate(164deg);
+  border-top-right-radius: 50px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b9 > div {
+  position: relative;
+  top: -0.1px;
+  left: 2px;
+  width: 10rem;
+  height: 6rem;
+  transform: rotate(0deg);
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b10 {
+  position: absolute;
+  left: 176px;
+  top: 191px;
+  width: 2.1rem;
+  height: 2rem;
+  transform: rotate(-71deg);
+  overflow: hidden;
+  background-color: rgba(173, 216, 230, 0.409);
+}
+.b10 > div {
+  position: relative;
+  top: 15px;
+  left: -55px;
+  width: 8rem;
+  transform: rotate(-12.5deg);
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
 }
