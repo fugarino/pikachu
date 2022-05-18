@@ -20,7 +20,7 @@ section {
   width: 30rem;
   height: 30rem;
   /* border: 2px solid black; */
-  /* background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png); */
+  background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png);
   background-size: 100%;
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -746,6 +746,88 @@ section {
   width: 8rem;
   transform: rotate(-12.5deg);
   height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b12 {
+  position: absolute;
+  left: 123.5px;
+  top: 306px;
+  width: 5rem;
+  height: 5.15rem;
+  transform: rotate(14deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b12 > div {
+  position: relative;
+  top: -10px;
+  left: 55px;
+  width: 10rem;
+  height: 8rem;
+  border: 3px solid black;
+}
+
+.b13 {
+  position: absolute;
+  left: 152px;
+  top: 390px;
+  width: 6rem;
+  height: 4rem;
+  transform: rotate(0deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b13 > div {
+  position: relative;
+  top: -70px;
+  left: 9px;
+  width: 11rem;
+  transform: rotate(-30deg);
+  height: 7.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b14 {
+  position: absolute;
+  left: 285px;
+  top: 395px;
+  width: 4rem;
+  height: 4rem;
+  transform: rotate(0deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b14 > div {
+  position: relative;
+  top: -66px;
+  left: -70px;
+  width: 15rem;
+  /* transform: rotate(-30deg); */
+  height: 7.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b15 {
+  position: absolute;
+  left: 248px;
+  top: 429px;
+  width: 2.5rem;
+  height: 4rem;
+  transform: rotate(172deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b15 > div {
+  position: relative;
+  top: -66px;
+  left: -50px;
+  width: 10rem;
+  /* transform: rotate(-30deg); */
+  height: 7.5rem;
   border-radius: 50%;
   border: 3px solid black;
 }
