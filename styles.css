@@ -20,7 +20,7 @@ section {
   width: 30rem;
   height: 30rem;
   /* border: 2px solid black; */
-  background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png);
+  /* background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png); */
   background-size: 100%;
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -712,13 +712,34 @@ section {
   position: absolute;
   left: 176px;
   top: 191px;
-  width: 2.1rem;
+  width: 2.2rem;
   height: 2rem;
-  transform: rotate(-71deg);
+  transform: rotate(-73deg);
   overflow: hidden;
-  background-color: rgba(173, 216, 230, 0.409);
+  /* background-color: rgba(173, 216, 230, 0.409); */
 }
 .b10 > div {
+  position: relative;
+  top: 15px;
+  left: -55px;
+  width: 8rem;
+  transform: rotate(-12.5deg);
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b11 {
+  position: absolute;
+  left: 192.5px;
+  top: 167px;
+  width: 1rem;
+  height: 2rem;
+  transform: rotate(110deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b11 > div {
   position: relative;
   top: 15px;
   left: -55px;
