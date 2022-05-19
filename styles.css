@@ -1,5 +1,5 @@
 :root {
-  --main-color: #fff700;
+  --main-color: #ffd724;
 }
 
 * {
@@ -179,7 +179,7 @@ section {
   bottom: 35px;
   left: 170px;
   border-radius: 50%;
-  width: 7rem;
+  width: 6rem;
   height: 5rem;
   overflow: hidden;
   background-color: #e6ab2e;
@@ -198,7 +198,7 @@ section {
 
 .c3 {
   position: absolute;
-  bottom: 35px;
+  bottom: 34px;
   left: 280px;
   width: 5rem;
   height: 2rem;
@@ -209,7 +209,7 @@ section {
 
 .c4 {
   position: absolute;
-  bottom: 38px;
+  bottom: 36px;
   left: 260px;
   width: 5rem;
   height: 2rem;
@@ -220,18 +220,18 @@ section {
 
 .c5 {
   position: absolute;
-  bottom: 38px;
+  bottom: 34px;
   left: 202px;
   width: 5rem;
   height: 2rem;
-  transform: rotate(-5deg);
+  transform: rotate(-10deg);
   background-color: #e6ab2e;
   border-radius: 50%;
 }
 
 .c6 {
   position: absolute;
-  bottom: 41.5px;
+  bottom: 39px;
   left: 222px;
   width: 6rem;
   height: 3rem;
@@ -918,4 +918,72 @@ section {
   height: 7.5rem;
   border-radius: 50%;
   border: 3px solid black;
+}
+
+.c29 {
+  position: absolute;
+  bottom: 24px;
+  left: 212px;
+  width: 1.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-13deg);
+  background-color: #e6ab2e;
+}
+
+.b20 {
+  position: absolute;
+  left: 190px;
+  top: 363px;
+  width: 3.6rem;
+  height: 3rem;
+  border-radius: 50%;
+  transform: rotate(25deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.3); */
+}
+.b20 > div {
+  position: relative;
+  top: -12px;
+  left: 22px;
+  transform: rotate(-48deg);
+  width: 5.2rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b21 {
+  position: absolute;
+  left: 185px;
+  top: 382px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  /* transform: rotate(25deg); */
+  /* overflow: hidden; */
+  /* background-color: rgba(173, 216, 230, 0.3); */
+}
+.b21 > div {
+  position: relative;
+  top: -20px;
+  left: 22px;
+  transform: rotate(-13deg);
+  width: 1.7rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.c30 {
+  position: absolute;
+  bottom: 107px;
+  left: 207px;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-13deg);
+  background-color: var(--main-color);
 }
