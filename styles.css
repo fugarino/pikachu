@@ -20,7 +20,7 @@ section {
   width: 30rem;
   height: 30rem;
   /* border: 2px solid black; */
-  background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png);
+  /* background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png); */
   background-size: 100%;
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -827,6 +827,94 @@ section {
   left: -50px;
   width: 10rem;
   /* transform: rotate(-30deg); */
+  height: 7.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b16 {
+  position: absolute;
+  left: 121px;
+  top: 238px;
+  width: 8.3rem;
+  height: 4rem;
+  transform: rotate(57deg);
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b16 > div {
+  position: relative;
+  top: -63px;
+  left: -40px;
+  width: 14rem;
+  transform: rotate(-2deg);
+  height: 7.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b17 {
+  position: absolute;
+  top: 232px;
+  left: 143px;
+  width: 6.5rem;
+  height: 4rem;
+  transform: rotate(45deg);
+  border-top-right-radius: 50px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b17 > div {
+  position: relative;
+  top: 16px;
+  left: -40px;
+  width: 15rem;
+  transform: rotate(20deg);
+  height: 7.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b18 {
+  position: absolute;
+  top: 311px;
+  left: 266px;
+  width: 5rem;
+  height: 4rem;
+  transform: rotate(-85deg);
+  border-top-right-radius: 50px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b18 > div {
+  position: relative;
+  top: 35px;
+  left: -40px;
+  width: 15rem;
+  transform: rotate(25deg);
+  height: 7.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b19 {
+  position: absolute;
+  top: 280px;
+  left: 279px;
+  width: 5rem;
+  height: 7.1rem;
+  /* transform: rotate(-85deg); */
+  /* border-top-right-radius: 50px; */
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b19 > div {
+  position: relative;
+  top: 10px;
+  left: -86px;
+  width: 12rem;
+  transform: rotate(-74deg);
   height: 7.5rem;
   border-radius: 50%;
   border: 3px solid black;
