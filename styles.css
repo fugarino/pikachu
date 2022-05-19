@@ -20,7 +20,7 @@ section {
   width: 30rem;
   height: 30rem;
   /* border: 2px solid black; */
-  /* background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png); */
+  background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png);
   background-size: 100%;
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -482,6 +482,30 @@ section {
   overflow: hidden;
   transform: rotate(60deg);
   background-color: var(--main-color);
+}
+
+.c33 {
+  position: absolute;
+  bottom: 60px;
+  left: 308px;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(10deg);
+  background-color: var(--main-color);
+}
+
+.c34 {
+  position: absolute;
+  bottom: 47px;
+  left: 245px;
+  width: 4.9rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(0deg);
+  background-color: #e6ab2e;
 }
 
 /* Tail Outline */
@@ -986,4 +1010,95 @@ section {
   overflow: hidden;
   transform: rotate(-13deg);
   background-color: var(--main-color);
+}
+
+.c31 {
+  position: absolute;
+  bottom: 25px;
+  left: 210px;
+  width: 1.6rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-13deg);
+  background-color: #e6ab2e;
+}
+
+.b22 {
+  position: absolute;
+  left: 335px;
+  top: 382px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  /* transform: rotate(25deg); */
+  /* overflow: hidden; */
+  /* background-color: rgba(173, 216, 230, 0.3); */
+}
+.b22 > div {
+  position: relative;
+  top: -17px;
+  left: 14px;
+  transform: rotate(26deg);
+  width: 1.6rem;
+  height: 5.9rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.c32 {
+  position: absolute;
+  bottom: 22px;
+  left: 350px;
+  width: 1.5rem;
+  height: 5.7rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(26deg);
+  background-color: var(--main-color);
+}
+
+.b23 {
+  position: absolute;
+  left: 345px;
+  top: 355px;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  /* transform: rotate(25deg); */
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.3); */
+}
+.b23 > div {
+  position: relative;
+  top: 5px;
+  left: -39px;
+  transform: rotate(8deg);
+  width: 4rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b24 {
+  position: absolute;
+  left: 350px;
+  top: 366px;
+  width: 1.5rem;
+  height: 5.8rem;
+  border-radius: 50%;
+  transform: rotate(25deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.3); */
+}
+.b24 > div {
+  position: relative;
+  top: 14px;
+  left: 2px;
+  transform: rotate(3deg);
+  width: 1.3rem;
+  height: 5rem;
+  border-radius: 50%;
+  /* border: 3px solid black; */
+  background-color: #e6ab2e;
 }
