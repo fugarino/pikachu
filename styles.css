@@ -200,7 +200,7 @@ section {
   position: absolute;
   bottom: 34px;
   left: 280px;
-  width: 5rem;
+  width: 5.2rem;
   height: 2rem;
   transform: rotate(4deg);
   background-color: #e6ab2e;
@@ -1026,21 +1026,43 @@ section {
 
 .b22 {
   position: absolute;
-  left: 335px;
-  top: 382px;
-  width: 5rem;
+  left: 354px;
+  top: 355px;
+  width: 2rem;
   height: 5rem;
   border-radius: 50%;
-  /* transform: rotate(25deg); */
-  /* overflow: hidden; */
+  transform: rotate(25deg);
+  overflow: hidden;
   /* background-color: rgba(173, 216, 230, 0.3); */
 }
 .b22 > div {
   position: relative;
-  top: -17px;
-  left: 14px;
-  transform: rotate(26deg);
-  width: 1.6rem;
+  top: 13px;
+  left: 2px;
+  transform: rotate(1deg);
+  width: 1.7rem;
+  height: 5.9rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b25 {
+  position: absolute;
+  left: 330px;
+  top: 410px;
+  width: 2rem;
+  height: 5rem;
+  border-radius: 50%;
+  transform: rotate(40deg);
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.3); */
+}
+.b25 > div {
+  position: relative;
+  top: -46px;
+  left: -10px;
+  transform: rotate(-14deg);
+  width: 1.7rem;
   height: 5.9rem;
   border-radius: 50%;
   border: 3px solid black;
@@ -1093,10 +1115,10 @@ section {
 }
 .b24 > div {
   position: relative;
-  top: 14px;
-  left: 2px;
+  top: 15px;
+  left: 1px;
   transform: rotate(3deg);
-  width: 1.3rem;
+  width: 1.4rem;
   height: 5rem;
   border-radius: 50%;
   /* border: 3px solid black; */
