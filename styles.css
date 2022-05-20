@@ -20,7 +20,7 @@ section {
   width: 30rem;
   height: 30rem;
   /* border: 2px solid black; */
-  background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png);
+  /* background-image: url(./Screen\ Shot\ 2022-05-16\ at\ 1.10.05\ PM.png); */
   background-size: 100%;
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -368,24 +368,24 @@ section {
 .c18 {
   position: absolute;
   bottom: 240px;
-  left: 339px;
+  left: 338px;
   border-radius: 50%;
   width: 2rem;
   height: 6rem;
   overflow: hidden;
-  transform: rotate(3deg);
+  transform: rotate(-10deg);
   background-color: var(--main-color);
 }
 
 .c19 {
   position: absolute;
-  bottom: 175px;
-  left: 287px;
+  bottom: 164px;
+  left: 272px;
   border-radius: 50%;
-  width: 4rem;
-  height: 7rem;
+  width: 5rem;
+  height: 8rem;
   overflow: hidden;
-  transform: rotate(69deg);
+  transform: rotate(60deg);
   background-color: var(--main-color);
 }
 
@@ -445,13 +445,13 @@ section {
   border-radius: 50%;
   overflow: hidden;
   transform: rotate(-49deg);
-  background-color: var(--main-color);
+  background-color: #e6ab2e;
 }
 
 .c25 {
   position: absolute;
   bottom: 322px;
-  left: 159px;
+  left: 160px;
   width: 2.5rem;
   height: 9rem;
   border-radius: 50%;
@@ -459,16 +459,38 @@ section {
   transform: rotate(-50deg);
   background-color: var(--main-color);
 }
+.c255 {
+  position: absolute;
+  bottom: 322px;
+  left: 157px;
+  width: 2.5rem;
+  height: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(-46deg);
+  background-color: var(--main-color);
+}
 
 .c26 {
   position: absolute;
-  bottom: 270px;
+  bottom: 271px;
   left: 369px;
-  width: 2.5rem;
+  width: 2rem;
   height: 11rem;
   border-radius: 50%;
   overflow: hidden;
   transform: rotate(55deg);
+  background-color: var(--main-color);
+}
+.c266 {
+  position: absolute;
+  bottom: 266px;
+  left: 369px;
+  width: 2rem;
+  height: 11rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(63deg);
   background-color: var(--main-color);
 }
 
@@ -481,7 +503,7 @@ section {
   border-radius: 50%;
   overflow: hidden;
   transform: rotate(60deg);
-  background-color: var(--main-color);
+  background-color: #e6ab2e;
 }
 
 .c33 {
@@ -679,12 +701,12 @@ section {
 
 .c28 {
   position: absolute;
-  left: 361px;
-  top: 150px;
+  left: 362px;
+  top: 155px;
   background-color: var(--main-color);
-  transform: rotate(-10deg);
+  transform: rotate(-7deg);
   width: 10px;
-  height: 36px;
+  height: 38px;
 }
 
 .b8 {
@@ -1123,4 +1145,70 @@ section {
   border-radius: 50%;
   /* border: 3px solid black; */
   background-color: #e6ab2e;
+}
+
+.b26 {
+  position: absolute;
+  left: 145px;
+  top: 43px;
+  width: 2.8rem;
+  height: 3rem;
+  transform: rotate(-85deg);
+  /* border-top-right-radius: 20px; */
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b26 > div {
+  position: relative;
+  top: 3px;
+  left: -55px;
+  width: 8rem;
+  transform: rotate(-12.5deg);
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.b27 {
+  position: absolute;
+  left: 403px;
+  top: 68px;
+  width: 2.6rem;
+  height: 3rem;
+  transform: rotate(90deg);
+  /* border-top-right-radius: 20px; */
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b27 > div {
+  position: relative;
+  top: 3px;
+  left: -55px;
+  width: 8rem;
+  transform: rotate(-12.5deg);
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.c35 {
+  position: absolute;
+  top: 28.9px;
+  left: 115.2px;
+  width: 2.5rem;
+  /* transform: translate(-90deg); */
+  height: 4rem;
+  clip-path: polygon(0 0, 50% 10%, 90% 23%, 79% 43%, 75% 76%, 80% 92%, 55% 74%, 9% 27%);
+  background-color: black;
+}
+
+.c36 {
+  position: absolute;
+  top: 59.3px;
+  left: 438px;
+  width: 2rem;
+  transform: rotate(20deg);
+  height: 3.4rem;
+  clip-path: polygon(100% 0, 94% 27%, 76% 65%, 45% 100%, 35% 75%, 18% 51%, 1% 35%, 65% 8%);
+  background-color: black;
 }
