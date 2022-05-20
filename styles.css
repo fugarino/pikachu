@@ -878,7 +878,7 @@ section {
   border: 3px solid black;
 }
 
-.b16 {
+/* .b16 {
   position: absolute;
   left: 121px;
   top: 238px;
@@ -887,7 +887,7 @@ section {
   transform: rotate(57deg);
   border-bottom-right-radius: 50px;
   overflow: hidden;
-  /* background-color: rgba(173, 216, 230, 0.409); */
+  background-color: rgba(173, 216, 230, 0.409);
 }
 .b16 > div {
   position: relative;
@@ -896,6 +896,52 @@ section {
   width: 14rem;
   transform: rotate(-2deg);
   height: 7.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+} */
+.b16 {
+  position: absolute;
+  left: 110px;
+  top: 227px;
+  width: 9rem;
+  height: 3.8rem;
+  transform: rotate(55deg);
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 50px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b16 > div {
+  position: relative;
+  top: 0px;
+  /* left: 0px; */
+  width: 13.3rem;
+  /* transform: rotate(-4deg); */
+  background-color: var(--main-color);
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.b166 {
+  position: absolute;
+  left: 267px;
+  top: 328px;
+  width: 6rem;
+  height: 3.8rem;
+  transform: rotate(-85deg);
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 50px;
+  overflow: hidden;
+  /* background-color: rgba(173, 216, 230, 0.409); */
+}
+.b166 > div {
+  position: relative;
+  top: 12px;
+  /* left: 0px; */
+  width: 13.3rem;
+  /* transform: rotate(-4deg); */
+  /* background-color: var(--main-color); */
+  height: 3.5rem;
   border-radius: 50%;
   border: 3px solid black;
 }
