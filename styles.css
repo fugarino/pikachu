@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: #ffe62d; */
+  background-color: #f2c444;
 }
 
 section {
@@ -70,7 +72,17 @@ section {
   right: 19.6rem;
   bottom: 9.2rem;
   transform: rotate(5deg);
-  clip-path: polygon(52% 70%, 51% 50%, 36% 66%, 35% 54%, 0% 94%, 71% 100%, 82% 68%, 64% 75%, 70% 48%);
+  clip-path: polygon(
+    52% 70%,
+    51% 50%,
+    36% 66%,
+    35% 54%,
+    0% 94%,
+    71% 100%,
+    82% 68%,
+    64% 75%,
+    70% 48%
+  );
 }
 .tail-color > div > div:nth-child(2) {
   position: absolute;
